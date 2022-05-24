@@ -33,7 +33,7 @@
 - Estrutura HTML. (25Pontos)
 - Estilização CSS3. (25Pontos)
 - Controle com Javascript. (30Pontos)
-## **Estrutura**:
+# **Estrutura**:
 - Container:
 Definir uma "div" como container principal. Determine esse elemento comoclasseouid de nome “container” para esse elemento. Este deve conter todos os outros elementos.
     
@@ -63,7 +63,7 @@ Para o rodapé nós vamos ter um "p", um "smmall" e um "a" com os respectivos te
 p = “2021.Design Responsivo.”
 A palavra “Criado por SEU NOME” deve estar entre uma 
 small e o nome Alexandre Carlos deve estar entre um <a> onde o hyperlink deve apontar para (#).
-# APRESENTAÇÃO
+# **APRESENTAÇÃO**
 Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css
 - Faça o apontamento do arquivo css no HTML.
 - Para o bodydetermine os seguintesestilos:
@@ -114,7 +114,7 @@ Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css
 - Para os parágrafos descendentes de caixa determine os seguintes estilos:
     > Tamanho do texto em 20px.
     > Cor do texto #fff.
-- Para o elemento <h1> determine os seguintes estilos:
+- Para o elemento h1 determine os seguintes estilos:
     > Margem topo 0.
     > Margem rodapé 0.
     > Tamanho do texto 48px.
