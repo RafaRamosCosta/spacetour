@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contato.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <form action="./index.html">
+            <label for="nomeId">Nome</label>
+            <input type="text" name="nome" id="nomeId" required><br>
+            <label for="sobrenomeId">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenomeId" required><br>
+            <label for="">Gênero</label>
+            <select name="genero" id="generoId" required>
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <br>
+            <label for="">Data de nascimento</label>
+            <input type="date" name="data" id="dataId" required><br>
+            <label for="">Qual sua motivação para a viagem?</label><br>
+            <textarea name="motivo" id="motivoId" cols="30" rows="10" placeholder="Escreva sua motivação para a viagem..." required></textarea><br>
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+
+        </form>
+    </main>
+</body>
+</html>
