@@ -35,32 +35,34 @@
 - Controle com Javascript. (30Pontos)
 ## **Estrutura**:
 - Container:
-Definir uma<div>como container principal. Determine esse elemento comoclasseouid de nome “container”(*)para esse elemento. Este deve conter todos os outros elementos.
+Definir uma "div" como container principal. Determine esse elemento comoclasseouid de nome “container” para esse elemento. Este deve conter todos os outros elementos.
     
 - Layout:
 O layout deve ser dividido em 3(três) áreas.
->   - Cabeçalho(Determine a classe “cabecalho”(*)para o <header>).-Banner(Determine a classe “banner”(*)para o <section>).
->   - Rodapé(Determine a classe “rodape”(*)para o <footer>).
+   - Cabeçalho(Determine a classe “cabecalho” para o header).
+   - Banner(Determine a classe “banner” para o section).
+   - Rodapé(Determine a classe “rodape” para o footer).
 - CABEÇALHO:
 Deve ser adicionada uma imagem(logo-spacetours.png) e identificada com a classe “logo”.
-Adicione um elemento semântico e identifique este com a classe de “menu”, coloque uma listacom os seguintes itensdentro deste elemento:
+Adicione um elemento semântico e identifique este com a classe de “menu”, coloque uma lista com os seguintes itens dentro deste elemento:
 - Home
 - Sobre
 - Pacotes
 - Contato 
 Cada item deve ser um hyperlink para (#).
+
 - BANNER:
 Neste elemento deve ser criada uma imagem (banner.jpg).
->Neste elemento deve ser criada uma imagem (banner.jpg).
-Abaixo dessa imagem devemos criar uma <div> e identificar esta com a classe “box”, ela deve conter um "<h1>", um "<p>" e um "<a>" respectivamente: 
->   "<h1> = “TERRA: SUA LINDA!” "
->   "<p>  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.” "
->   "<a>  = “Leia depoimentos.”(O hyperlink deve apontar para (#) )"
+
+Abaixo dessa imagem devemos criar uma "div" e identificar esta com a classe “box”, ela deve conter um "h1", um "p" e um "a" respectivamente: 
+    h1 = "TERRA: SUA LINDA!"
+    p = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista."
+    a = “Leia depoimentos.”(O hyperlink deve apontar para (#) )"
 - RODAPÉ:
-Para o rodapé nós vamos ter um <p>, um <smmall> e um <a> com os respectivos textos onde o small tag deve ter a classe “creditos”.
-> <p> = “2021.Design Responsivo.”
-> A palavra “Criado por SEU NOME” deve estar entre uma 
-> <small> e o nome Alexandre Carlos deve estar entre um <a> onde o hyperlink deve apontar para (#).
+Para o rodapé nós vamos ter um "p", um "smmall" e um "a" com os respectivos textos onde o "small" tag deve ter a classe “creditos”.
+p = “2021.Design Responsivo.”
+A palavra “Criado por SEU NOME” deve estar entre uma 
+small e o nome Alexandre Carlos deve estar entre um <a> onde o hyperlink deve apontar para (#).
 # APRESENTAÇÃO
 Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css
 - Faça o apontamento do arquivo css no HTML.
@@ -69,24 +71,24 @@ Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css
     > Familia da fonte -Helvetica Neue, Helvetica, Arialousem serifa.
     > Cor do texto #444
 - Para a classe container determine os seguintes estilos:
-   > Largura máxima de 1128px.
+    > Largura máxima de 1128px.
 - Para todos os elementos <a> determine os seguintes estilos:
-   > Cordo texto #00ccff.
-   > Retire o estilo de hyperlink de todos os elementos.
-   > Tamanho do texto em 12px .
+    > Cordo texto #00ccff.
+    > Retire o estilo de hyperlink de todos os elementos.
+    > Tamanho do texto em 12px .
 - Para ostodos os parágrafos determine os seguintes estilos:
-   > Tamanho do texto 20px.
+    > Tamanho do texto 20px.
 - Para todos os elementos <a> determine os seguintes estilos:
-   > Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+    > Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
 - Para todas as imagens determine os seguintes estilos:
    >  Largura máxima de 100%;
 - Para a classe cabecalhodetermine os seguintes estilos:
-   > Largura de 100%.
-   > Altura de 48px.
-   > Margem do topo de 40px.
-   > Margem do rodapé de 40px.
+    > Largura de 100%.
+    > Altura de 48px.
+    > Margem do topo de 40px.
+    > Margem do rodapé de 40px.
 - Para a classe logo determine os seguintes estilos:
-   > Faça o elemento flutuar para a esquerda.
+    > Faça o elemento flutuar para a esquerda.
 - Para a classe menudetermine os seguintes estilos:
     > Faça o elemento flutuar para a direita. 
 - Para ositems da lista determine os seguintes estilos:
