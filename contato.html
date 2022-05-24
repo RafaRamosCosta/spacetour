@@ -9,6 +9,18 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
+    <header>
+        <h1>Entre em contato:</h1>
+        <div class="div-nav">
+            <nav class="menu">
+                <a href="./contato.html">Contato</a>
+                <a href="#">Pacotes</a>
+                <a href="#">Sobre</a>
+                <a href="#">Home</a>
+            </nav>
+        </div>
+        
+    </header>
     <main>
         <form action="./index.html">
             <label for="nomeId">Nome</label>
@@ -25,10 +37,13 @@
             <br>
             <label for="">Data de nascimento</label>
             <input type="date" name="data" id="dataId" required><br>
-            <label for="">Qual sua motivação para a viagem?</label><br>
+            <label for="">Qual sua motivação para a viagem?</label>
             <textarea name="motivo" id="motivoId" cols="30" rows="10" placeholder="Escreva sua motivação para a viagem..." required></textarea><br>
-            <button type="submit">Cadastrar</button>
-            <button type="reset">Limpar</button>
+            <div class="div-buttons">
+                <button id="cadastrar" type="submit">Cadastrar</button>
+                <button id="reset" type="reset">Limpar</button>
+            </div>
+            
 
         </form>
     </main>
