@@ -27,13 +27,13 @@ form label{
 }
 
 form input, textarea{
-   color: black;
+   color: rgb(0, 0, 0);
    border-radius: 4px;
    font-size: 16px;
    padding: 5px 16px;
    border: 1px solid #999;
-   box-shadow: 1px 2px #565757;
-   background-color: rgba(255, 255, 255, 0.3);
+   box-shadow: 1px 2px #5a6363;
+   background-color: rgba(155, 149, 149, 0.3);
 }
 
 form input:focus, textarea:focus{
@@ -43,9 +43,9 @@ form input:focus, textarea:focus{
 form select{
    padding: 5px 16px;
    border-radius: 4px;
-   box-shadow: 1px 2px #565757;
-   background-color: rgba(255, 255, 255, 0.267);
-   color: black;
+   box-shadow: 1px 2px #5a6363;
+   background-color: rgba(155, 149, 149, 0.3);
+   color: rgb(0, 0, 0);
 }
 
 
@@ -72,6 +72,7 @@ form button{
    width: 100px;
    padding: 5px;
    transition: all .3s
+  
 }
 
 .div-buttons{
@@ -81,10 +82,12 @@ form button{
 
 #cadastrar:hover{
    background-color: #0399be;
+   cursor: pointer;
 }
 
 #reset:hover{
    background-color: #bb2525;
+   cursor: pointer;
 }
 
 .menu{
@@ -99,5 +102,5 @@ form button{
 }
 
 a:hover{
-   text-decoration: underline;
+   text-decoration: none;
 }
