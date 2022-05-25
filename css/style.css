@@ -16,6 +16,7 @@ a{
 
 a:hover{
     text-decoration: none;
+   
 }
 
 p{
@@ -43,6 +44,9 @@ img{
     font-size: 20px;
     margin:12px 0px 0px 24px;
     color: #999;
+}
+.menu a:hover{
+    color:#0399be;
 }
 .banner{
     height: 450px;
